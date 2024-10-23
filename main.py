@@ -46,7 +46,7 @@ def main():
             for bullet in shots:
                 if bullet.checkCollision(thing) == True:
                     bullet.kill()
-                    thing.kill()
+                    thing.split()
 
 
         for thing in drawable:
